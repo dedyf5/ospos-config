@@ -1,4 +1,4 @@
-/*set items a single line*/
+/*set item description a single line*/
 #receipt_items th:first-child, #receipt_items td:first-child{
   max-width: 80px;
   overflow: hidden;
