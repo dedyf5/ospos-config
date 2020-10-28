@@ -1,0 +1,12 @@
+/*set items a single line*/
+#receipt_items th, #receipt_items td{
+  max-width: 80px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/*remove barcode*/
+#receipt_wrapper > #barcode{
+  display: none;
+}
