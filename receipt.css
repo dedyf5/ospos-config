@@ -6,6 +6,11 @@
   white-space: nowrap;
 }
 
+/*remove general info*/
+#receipt_wrapper > #receipt_general_info{
+  display: none;
+}
+
 /*remove barcode*/
 #receipt_wrapper > #barcode{
   display: none;
